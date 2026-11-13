@@ -32,7 +32,7 @@ Controlled laboratory evaluation of WPA/WPA2 wireless network resilience against
 
 ## Attack & Mitigation Architecture
 
-```mermaid
+mermaid
 flowchart TD
     A[1. Spectrum Reconnaissance<br/>2.4 GHz Monitor Mode] --> B[2. Deauthentication Flood<br/>mdk3 Frame Injection]
     B --> C[3. 4-Way Handshake Capture<br/>EAPOL Interception]
